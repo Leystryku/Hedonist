@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{21EB8090-0D4E-1035-B6D3-48EBA215DCB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\drawing">
+      <UniqueIdentifier>{BCBB26D3-A84A-B09C-5169-C4973DD7C042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gamelogic">
+      <UniqueIdentifier>{58ACCF56-44A6-F8A8-2D13-8FB919AC5E15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu">
+      <UniqueIdentifier>{0509565D-711F-54F3-BA96-DF1426EC247B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu\menu_panels">
+      <UniqueIdentifier>{EBCD9FF4-57E6-861E-2093-16B88C6A1BB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sounds">
+      <UniqueIdentifier>{4C0DB419-B86E-9127-41DC-D7D9AD3CC8E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E9C7FDCE-D52A-8D73-7EB0-C5296AF258F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\drawing">
+      <UniqueIdentifier>{84E0F7BF-706F-8189-198E-958405FC912F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gamelogic">
+      <UniqueIdentifier>{20237DBC-0C1D-A60E-F589-3C1FE1220C7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu">
+      <UniqueIdentifier>{CD22C40A-3939-C2A0-82B0-4DC2EE059328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sounds">
+      <UniqueIdentifier>{14B90FDB-801A-EDE8-0988-339B75E823A8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\drawing\color.h">
+      <Filter>Header Files\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\drawing\d3d.h">
+      <Filter>Header Files\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\drawing\drawing.h">
+      <Filter>Header Files\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gamelogic\gamelogic.h">
+      <Filter>Header Files\gamelogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu\menu.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu\menu_panels\ebutton.h">
+      <Filter>Header Files\menu\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu\menu_panels\echeckbox.h">
+      <Filter>Header Files\menu\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu\menu_panels\eframe.h">
+      <Filter>Header Files\menu\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu\menu_panels\elabel.h">
+      <Filter>Header Files\menu\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu\menu_panels\epanel.h">
+      <Filter>Header Files\menu\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu\menu_panels\eslider.h">
+      <Filter>Header Files\menu\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu\menu_panels\etextbox.h">
+      <Filter>Header Files\menu\menu_panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sounds\sounds.h">
+      <Filter>Header Files\sounds</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\drawing\d3d.cpp">
+      <Filter>Source Files\drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\drawing\drawing.cpp">
+      <Filter>Source Files\drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gamelogic\gamelogic.cpp">
+      <Filter>Source Files\gamelogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\menu\menu.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sounds\sounds.cpp">
+      <Filter>Source Files\sounds</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
