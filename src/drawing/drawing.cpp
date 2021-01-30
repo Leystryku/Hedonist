@@ -10,7 +10,7 @@ CHAR FrameRate[50] = "";
 
 void Drawing::DoDraw()
 {
-	d3d->DrawTextW("NI HAO CHING CHONG", 100, 100, D3DCOLOR_RGBA(255, 0, 0, 255), d3d->font4);
+	d3d->DrawTextW("hello world", 100, 100, D3DCOLOR_RGBA(255, 0, 0, 255), d3d->font4);
 
 	if (!menu)
 		return;
